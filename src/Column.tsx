@@ -1,20 +1,23 @@
-import React from 'react';
-import { ColumnContainer, ColumnTitle } from './styles';
+import React from "react";
+import { AddNewItem } from "./AddNewItem";
+import { ColumnContainer, ColumnTitle } from "./styles";
 
-
-interface ColumnProps { 
-    text: string;
-    children: React.ReactNode
-    
+interface ColumnProps {
+  text: string;
+  children: React.ReactNode;
 }
 
+export const Column: React.FC<ColumnProps> = ({ text, children }) => {
+  return (
+    <ColumnContainer>
+      <ColumnTitle>{text}</ColumnTitle>
+      {children}
 
-export const Column: React.FC<ColumnProps> = ({text, children }) =>{
-
-    return (
-         <ColumnContainer>
-                <ColumnTitle>{text}</ColumnTitle>
-          {children}
-        </ColumnContainer>
-    )
-}
+      <AddNewItem
+        toggleButtonText='+ Add another task'
+        onAdd={console.log}
+        dark
+      />
+    </ColumnContainer>
+  );
+};
