@@ -15,6 +15,7 @@ export const AddNewItem = (props: AddNewItemsProps) => {
   if (showForm) {
     return (
       <NewItemForm
+      
         onAdd={(text) => {
           onAdd(text);
           setShowForm(false);
