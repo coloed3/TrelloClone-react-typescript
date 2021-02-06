@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7dde3a4-9584-4a0f-b860-727b4298c2bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/moveItem.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppStateContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppStateContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Column.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Column.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612044463369</updated>
       <workItem from="1612044467478" duration="849000" />
-      <workItem from="1612566624692" duration="178000" />
+      <workItem from="1612566624692" duration="2616000" />
     </task>
     <servers />
   </component>
@@ -63,5 +64,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added more to the context to add a drag and drop feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more to the context to add a drag and drop feature" />
   </component>
 </project>

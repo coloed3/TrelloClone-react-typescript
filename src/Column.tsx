@@ -13,6 +13,7 @@ export const Column: React.FC<ColumnProps> = ({ text, index }) => {
   const { state } = useAppState();
   return (
     <ColumnContainer>
+
       <ColumnTitle>{text}</ColumnTitle>
       {state.lists[index].tasks.map((task) => (
         <Card text={task.text} key={task.id} />

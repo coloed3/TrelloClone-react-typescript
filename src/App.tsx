@@ -3,7 +3,7 @@ import { AddNewItem } from "./AddNewItem";
 
 import { Column } from "./Column";
 
-import { AppContainer } from "./styles";
+import {AppContainer, ColumnContainer} from "./styles";
 import { useAppState } from "./AppStateContext";
 function App() {
   const { state, dispatch } = useAppState();
